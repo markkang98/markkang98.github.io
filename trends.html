@@ -18,30 +18,32 @@
     </head>
 
     <div class = "stick">
-        <a class="btn btn-primary btn-xl" href="index.html">Home</a>
+        <a class="btn btn-primary btn-small" href="index.html">Home</a>
     </div>
     <div class = "stick-small">
         <a class="btn btn-primary js-scroll-trigger" href="#top">Top</a>
     </div>
    
+    <nav>
+        <div class="sticky" id="myHeader">
+            <ul>
+                <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#hour">Growth by Hour</a></li>
+                <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#day">Growth by Days</a></li>
+                <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#avg">Average Minutes by Pass</a></li>
+                <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#tot">Total Minutes by Pass</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <div id = "top">
-    	<header> 
-    		<nav>
-    			<h1> Interesting Visualizations of Trends</h1>
-    			<ul>
-    				<li><a class="btn btn-primary btn-small js-scroll-trigger" href="#hour">Growth by Hour</a></li>
-    				<li><a class="btn btn-primary btn-small js-scroll-trigger" href="#day">Growth by Days</a></li>
-    				<li><a class="btn btn-primary btn-small js-scroll-trigger" href="#avg">Average Minutes by Pass</a></li>
-    				<li><a class="btn btn-primary btn-small js-scroll-trigger" href="#tot">Total Minutes by Pass</a></li>
-    			</ul>
-    		</nav>
+    	<header class = "exp-padding"> 
+            <h1> Interesting Visualizations of Trends</h1>
     	</header>
     </div>
  
     <body style="margin: 0;">
 
-        <section class="content-section" id = "hour">
+        <section class="content-section"  id = "hour">
    		   <div class="container">
                 <h1 align="left"> How does bikeshare use change throught the day on average?</h1>
                 <p align="left"> The peak of bike share use is at 5:00PM.  </p>
@@ -95,7 +97,6 @@
                 </div>
             </div>
         </section>
-
 
     	<script src="vendor/jquery/jquery.min.js"></script>
     	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

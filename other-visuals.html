@@ -18,28 +18,31 @@
     </head>
 
     <div class = "stick">
-        <a class="btn btn-primary btn-xl" href="index.html">Home</a>
+        <a class="btn btn-primary btn-small" href="index.html">Home</a>
     </div>
     <div class = "stick-small">
         <a class="btn btn-primary js-scroll-trigger" href="#top">Top</a>
     </div>
    
+    <nav>
+        <div class="sticky" id="myHeader">
+            <ul>
+                <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#pass">Passholder Type By Season</a></li>
+                <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#szn-avg">Average Duration by Season</a></li>
+                <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#route">Route - Pass Combinations</a></li>
+                <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#tot">Total Minutes by Pass</a></li>
+            </ul>
+        </div>
+    </nav>
+
 
     <div id = "top">
-        <header> 
-            <nav>
-                <h1> Interesting Visualizations of Trends</h1>
-                <ul>
-                    <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#pass">Passholder Type By Season</a></li>
-                    <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#szn-avg">Average Duration by Season</a></li>
-                    <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#route">Route - Pass Combinations</a></li>
-                    <li><a class="btn btn-primary btn-small js-scroll-trigger" href="#tot">Total Minutes by Pass</a></li>
-                </ul>
-            </nav>
+        <header class = "exp-padding"> 
+              <h1> Interesting Visualizations of Trends</h1>
         </header>
     </div>
  
-    <body style="margin: 0;">
+    <body>
 
         <section class="content-section" id = "pass">
            <div class="container text-center">
@@ -86,8 +89,6 @@
             </div>
        </section>
 
-       
-            
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>

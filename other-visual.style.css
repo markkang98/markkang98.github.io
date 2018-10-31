@@ -13,9 +13,13 @@ header {
 header h1 {
 	margin: 0;
 }
-
+nav{
+	background: #999;
+}
 nav ul{
-	margin: 2;
+	margin: 0;
+	background: #5BABF0;
+	padding: 5px;
 }
 
 nav ul li{
@@ -28,11 +32,11 @@ nav ul li a{
 	color: white;
 }
 .btn-small {
-  padding: 0.5rem 1.0rem;
+  padding: 5px 5px;
 }
 
 .exp-padding {
-	padding: 2rem 2rem;
+	padding: 200px 200px
 }
 .stick{
 	position: fixed;
@@ -48,3 +52,12 @@ nav ul li a{
   	padding: 5px;
 	z-index:1000
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+
